@@ -1,6 +1,7 @@
 id_producto,nombre,cantidad_disponible,cantidad_vendidos,estado,precio,categoria,ml,tipo,gramos,sabor,tamaño
 1,Cocacola,100,20,disponible,2.5,Bebida,355,natural,0,0,
 2,Pepsi,50,10,disponible,2.0,Bebida,355,con licor,0,0,
-3,Doritos,75,30,disponible,1.75,Snack,0,barbacoa,0,individual,
-4,Papitas,40,15,disponible,1.5,Snack,0,picante,0,familiar,
-5,Corn Flakes,60,25,disponible,3.0,Cereales,0,natural,250,pequeño
+3,Doritos,75,30,disponible,1.75,Snack,0,0,0,individual,,
+4,Papitas,40,15,disponible,1.5,Snack,0,0,0,familiar,,
+5,Corn Flakes,60,25,disponible,3.0,Cereales,
+6,Tortrix,3,1,disponible,3.0,Snack,0,0,8,barbacoa,familiar,
