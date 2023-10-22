@@ -71,5 +71,22 @@ public class Producto {
         this.categoria = categoria;
     }
     
-    // Otros métodos que puedas necesitar para esta clase, como toString, cálculo de comisión, etc.
+    public double calcularComision() {
+        if (this.categoria.equals("Bebida")) {
+            return this.precio * 0.10;
+        } else if (this.categoria.equals("Snack")) {
+            return this.precio * 0.05;
+        } else if (this.categoria.equals("Cereales")) {
+            return this.precio * 0.07;
+        } 
+        return 0;
+    }
+
+    @Override
+    public String toString() {
+        // Representacion del producto como cadena de texto
+        return "ID: " + id + "\nNombre: " + nombre + "\nCantidad Disponible: " + cantidadDisponible +
+                "\nCantidad Vendidos: " + cantidadVendidos + "\nEstado: " + estado +
+                "\nPrecio: " + precio + "\nCategoria: " + categoria;
+    }
 }

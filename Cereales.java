@@ -33,6 +33,4 @@ public class Cereales extends Producto {
     public void setTamaño(String tamaño) {
         this.tamaño = tamaño;
     }
-
-    // Otros métodos específicos para la clase Cereales, si es necesario
 }
